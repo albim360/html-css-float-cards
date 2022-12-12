@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-sup h2{
+    color: rgb(248, 0, 106);
+    text-align: center;
+    padding: 22px 0;
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.header-sup p {
+    text-align: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    float: left;
+}
+
+.container h3 {
+    display: inline;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    background-color: black
+
+    
+}
+
