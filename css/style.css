@@ -8,6 +8,9 @@ img {
     max-width: 100%;
 }
 
+/****************************
+HEADER SUPERIORE DELLA PAGINA
+*****************************/
 .header-sup h2{
     color: rgb(248, 0, 106);
     text-align: center;
@@ -22,13 +25,16 @@ img {
     padding-right: 220px;
 }
 
+
+/******************
+  INIZIO RIQUADRI 
+******************/
+
 .container {
     margin: 0 -20px;
     float: left;
     max-width: 800px;
 }
-
-
 
 .card {
     float: left;
@@ -72,6 +78,9 @@ img {
     margin-right: 4px;
 }
 
+/******************************************
+AGGIUNGO MARGINE AL PRIMO E 4th ELEMENTO 
+*******************************************/
 .container:nth-of-type(3n+1) {
     margin-left: 220px;
 } 
