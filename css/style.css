@@ -18,22 +18,51 @@ img {
 
 .header-sup p {
     text-align: center;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    float: left;
+    max-width: 800px;
+}
+
+
+
+.card {
+    float: left;
+    background-color: rgb(15, 13, 24);
+    margin-top: 40px;
+    width: 250px;
+    height: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 3px 3px #eee;
+
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+} 
+
+.card-text {
+    padding-top: 35px;
+    color: white;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    float: right;
+    text-align: left;
+}
+
+.img-card {
+    height: 70px;
+    width: 82px;
     float: left;
 }
 
-.container h3 {
-    display: inline;
-    font-family: 'Fredoka One', cursive;
-    color: white;
-    background-color: black
-
-    
-}
-
+.container:nth-of-type(3n+1) {
+    margin-left: 150px;
+} 
