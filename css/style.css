@@ -18,12 +18,12 @@ img {
 
 .header-sup p {
     text-align: center;
-    padding-left: 190px;
-    padding-right: 190px;
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 .container {
-    margin: 0 auto;
+    margin: 0 -20px;
     float: left;
     max-width: 800px;
 }
@@ -34,12 +34,12 @@ img {
     float: left;
     background-color: rgb(15, 13, 24);
     margin-top: 40px;
-    width: 250px;
-    height: 70px;
-    margin-left: 50px;
+    width: 300px;
+    height: 80px;
+    margin-left: 15px;
     margin-right: 50px;
     box-shadow: 3px 3px #eee;
-
+    display: inline-block;
 }
 
 .clearfix::after {
@@ -48,21 +48,35 @@ img {
     display: table;
 } 
 
-.card-text {
-    padding-top: 35px;
-    color: white;
-    padding-left: 0px;
-    margin-bottom: 10px;
-    float: right;
-    text-align: left;
+.card-text span.nome {
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
 }
 
+.card-text span.lavoro{
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.card-text {
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
 .img-card {
-    height: 70px;
-    width: 82px;
+    width: 80px;
     float: left;
+    margin-right: 4px;
 }
 
 .container:nth-of-type(3n+1) {
-    margin-left: 150px;
+    margin-left: 220px;
 } 
+
+a {
+    text-decoration: none;
+    color: rgb(0, 172, 225);
+}
